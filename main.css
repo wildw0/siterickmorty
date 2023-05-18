@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {    
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify
+}
+
+body, input, textarea {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e4a788;
+}
+
+header{
+    padding: 8px 0;
+    background-color: #97ce4c;
+    color: #ecf0f1;
+    float: none;
+    text-align: center;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;       
+    font-size: 17px;    
+}
+
+header nav li a{
+    color: #182c61;
+    text-decoration: none;    
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;    
+}
+
+header .container,
+section .container {
+    display: block;
+    align-items: baseline;
+    justify-content: space-between;
+    }
+
+section  p, h2 {
+    height: auto;
+    width: 640px;
+    text-align: justify;
+    }
+
+#show, .imagem_show {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 896px;
+    }    
+
+#sobre_show {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    width: auto;          
+    }
+
+#plataformas {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 896px;
+}
+
+.chanel-list img {
+    display: inline;
+    height: 60px;
+    width: auto;
+    justify-content: space-between;
+    margin-right: 10px;
+    }
+
+#clips {
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+    height: auto;
+    width: 896px;
+}
+
+#clips img {
+        display: inline-block;
+        height: 160px;
+        width: auto;
+        margin-right: 21px;  
+    }
+
+#personagens h2 {
+        display: block;
+        margin: 0 auto;
+        margin-top: 32px;
+        margin-bottom: 16px;
+        height: auto;
+        width: 896px;
+        }
+
+#personagens .personagens-list{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    }
+
+#personagens li {
+    display: inline-flex;    
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: baseline; 
+}
+
+#personagens h3 {
+    display: inline;
+    margin: 20px 18px 32px 8px;
+    align-self: first baseline;
+    }
+
+#personagens p {
+    max-width: 360px;
+    margin-left: -100px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.personagens-list img {
+    margin: 22px 0 0 0; 
+    justify-content: space-between;
+    height: 124px;
+    width: 124px;    
+}
+
+section .container {
+    align-items: flex-start;
+    margin-top: 32px;
+}
+
+section {
+    padding: 24px, 0;    
+}
+
+section h2 {
+    margin-bottom: 16px;         
+}
+
+section {
+    color: #44281d;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+section h3{
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #97ce4c;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer {
+    background-color: #97ce4c;
+    color: #182c61;
+    padding: 16px 0;
+    font-family: 'Creepster', sans-serif;
+}
